@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML and CSS cheatsheet</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="main-header">
+        <h1 class="main-page-title">HTML and CSS cheatsheet</h1>
+        <nav class="nav-menu">
+          <ul class="menu-container">
+            <li class="menu-item"><a class="item" href="#SemanticHTMLTags">Semantic HTML tags</a></li>
+            <li class="menu-item"><a class="item" href="#CSSFlexbox">CSS Flexbox</a></li>
+            <li class="menu-item"><a class="item" href="#CSSGrid">CSS Grid</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <article id="SemanticHTMLTags" class="topic-card">
+          <h1>Some Semantic HTML Tags</h1>
+
+          <article id="navTag" class="subtopic-card">
+            <h2>&lt;nav&gt;</h2>
+            <div class="content">
+              <p>
+                Represents a section of a page whose purpose is to provide navigation links, either within the current
+                document or to other documents. Common examples of navigation sections are menus, tables of contents,
+                and indexes.
+              </p>
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=nav" target="_blank">Can I use: nav</a>
+            </div>
+          </article>
+
+          <article id="headerTag" class="subtopic-card">
+            <h2>&lt;header&gt;</h2>
+            <div class="content">
+              Represents introductory content, typically a group of introductory or navigational aids. It may contain
+              some heading elements but also a logo, a search form, an author name, and other elements.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=header" target="_blank">Can I use: header</a>
+            </div>
+          </article>
+
+          <article id="mainTag" class="subtopic-card">
+            <h2>&lt;main&gt;</h2>
+            <div class="content">
+              Represents the dominant content of the &lt;body&gt; of a document. The main content area consists of
+              content that is directly related to or expands upon the central topic of a document, or the central
+              functionality of an application.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=main" target="_blank">Can I use: main</a>
+            </div>
+          </article>
+
+          <article id="asideTag" class="subtopic-card">
+            <h2>&lt;aside&gt;</h2>
+            <div class="content">
+              Represents a portion of a document whose content is only indirectly related to the document's main
+              content.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=aside" target="_blank">Can I use: aside</a>
+            </div>
+          </article>
+
+          <article id="footerTag" class="subtopic-card">
+            <h2>&lt;footer&gt;</h2>
+            <div class="content">
+              Represents a footer for its nearest sectioning content or sectioning root element. A footer typically
+              contains information about the author of the section, copyright data or links to related documents.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=footer" target="_blank">Can I use: footer</a>
+            </div>
+          </article>
+
+          <article id="addressTag" class="subtopic-card">
+            <h2>&lt;address&gt;</h2>
+            <div class="content">
+              Indicates that the enclosed HTML provides contact information for a person or people, or for an
+              organization.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=address" target="_blank">Can I use: address</a>
+            </div>
+          </article>
+
+          <article id="articleTag" class="subtopic-card">
+            <h2>&lt;article&gt;</h2>
+            <div class="content">
+              Represents a self-contained composition in a document, page, application, or site, which is intended to be
+              independently distributable or reusable (e.g., in syndication).
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=article" target="_blank">Can I use: article</a>
+            </div>
+          </article>
+
+          <article id="sectionTag" class="subtopic-card">
+            <h2>&lt;section&gt;</h2>
+            <div class="content">
+              Represents a standalone section — which doesn't have a more specific semantic element to represent it —
+              contained within an HTML document.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=section" target="_blank">Can I use: section</a>
+            </div>
+          </article>
+
+          <article id="figureTag" class="subtopic-card">
+            <h2>&lt;figure&gt;</h2>
+            <div class="content">
+              Represents self-contained content, potentially with an optional caption, which is specified using the
+              (&lt;figcaption&gt;) element.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=figure" target="_blank">Can I use: figure</a>
+            </div>
+            <h2>&lt;figcaption&gt;</h2>
+            <div class="content">
+              Represents a caption or legend describing the rest of the contents of its parent &lt;figure&gt; element.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=figcaption" target="_blank">Can I use: figcaption</a>
+            </div>
+          </article>
+
+          <article id="detailsTag" class="subtopic-card">
+            <h2>&lt;details&gt;</h2>
+            <div class="content">
+              Creates a disclosure widget in which information is visible only when the widget is toggled into an "open"
+              state.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=details" target="_blank">Can I use: details</a>
+            </div>
+            <h2>&lt;summary&gt;</h2>
+            <div class="content">
+              Specifies a summary, caption, or legend for a &lt;details&gt; element's disclosure box.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=summary" target="_blank">Can I use: summary</a>
+            </div>
+          </article>
+
+          <article id="timeTag" class="subtopic-card">
+            <h2>&lt;time&gt;</h2>
+            <div class="content">Represents a specific period in time.</div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=time" target="_blank">Can I use: time</a>
+            </div>
+          </article>
+
+          <article id="markTag" class="subtopic-card">
+            <h2>&lt;mark&gt;</h2>
+            <div class="content">
+              Represents text which is marked or highlighted for reference or notation purposes, due to the marked
+              passage's relevance or importance in the enclosing context.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=mark" target="_blank">Can I use: mark</a>
+            </div>
+          </article>
+        </article>
+
+        <article id="CSSFlexbox" class="topic-card">
+          <h1>CSS Flexbox</h1>
+          <article id="markTag" class="subtopic-card">
+            <h2>Flex</h2>
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores reiciendis maiores odio eos
+              eaque ducimus quae nulla! Odit, repellendus recusandae! Cupiditate officia corrupti illum illo in animi
+              dignissimos corporis.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=flex" target="_blank">Can I use: flex</a>
+            </div>
+          </article>
+        </article>
+
+        <article id="CSSGrid" class="topic-card">
+          <h1>CSS Grid</h1>
+          <article id="markTag" class="subtopic-card">
+            <h2>Grid</h2>
+            <div class="content">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam asperiores reiciendis maiores odio eos
+              eaque ducimus quae nulla! Odit, repellendus recusandae! Cupiditate officia corrupti illum illo in animi
+              dignissimos corporis.
+            </div>
+            <div class="caniuse">
+              <a href="https://caniuse.com/?search=grid" target="_blank">Can I use: grid</a>
+            </div>
+          </article>
+        </article>
+      </main>
+
+      <footer class="main-footer">
+        <h5>Fabián Flores Vadell - 2020</h5>
+      </footer>
+    </div>
+  </body>
+</html>
