@@ -5,15 +5,18 @@
   --link-fg-color: #2f9df7;
 }
 
+
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
   font-size: 12px;
   font-family: Geneva, 'Lucida Sans', Verdana, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
   body {
@@ -31,9 +34,9 @@ html {
       .main-header {
         background-color: var(--main-bg-color);
         color: var(--main-fg-color);
-        padding: 1.5rem 0;
         position: sticky;
         top: 0;
+        padding: 1.5rem 0;
       }
 
         .main-page-title {

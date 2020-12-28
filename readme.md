@@ -10,6 +10,7 @@ This project shows some basics of web development:
 * HTML semantic tags like h1..h6, header, nav, article, footer...
 * CSS selectors
 * CSS variables
+* CSS smoth scroll behavior
 * CSS concepts like "reset" "root"
 * Responsive design: flexbox, media queries, responsive units
 * Markdown
